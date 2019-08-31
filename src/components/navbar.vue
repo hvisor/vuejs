@@ -8,6 +8,8 @@
     <router-link to="/contact">Contact</router-link>
     {{ ' | ' }}
     <router-link to="/user">User</router-link>
+    {{ ' | ' }}
+    <router-link to="/form">Form</router-link>
   </div>
 </template>
 

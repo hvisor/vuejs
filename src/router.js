@@ -9,6 +9,7 @@ const About = () => import('./views/About.vue' /* webpackChunkName: 'about' */)
 const Contact = () => import('./views/Contact.vue' /* webpackChunkName: 'contact' */)
 const User = () => import('./views/User.vue' /* webpackChunkName: 'user' */)
 const UserProfile = () => import('./views/UserProfile.vue' /* webpackChunkName: 'user-profile' */)
+const Form = () => import('./views/Form.vue' /* webpackChunkName: 'form' */)
 
 Vue.use(VueRouter)
 
@@ -17,6 +18,7 @@ const routes = [
     {path: '/about', component:About},
     {path: '/contact', component:Contact},
     {path: '/user', component:User},
+    {path: '/form', component:Form},
     {path: '/user/:id', component:UserProfile},
     {path: '*', component:Home}
 ]
