@@ -6,6 +6,9 @@ const dictionary = {
         messages:{
             required(field){
                 return  field+' foo'
+            },
+            min(){
+                return 'ccccc'
             }
         },
         attributes:{

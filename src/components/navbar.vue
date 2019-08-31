@@ -10,6 +10,10 @@
     <router-link to="/user">User</router-link>
     {{ ' | ' }}
     <router-link to="/form">Form</router-link>
+    {{ ' | ' }}
+    <router-link to="/chart">Chart</router-link>
+     {{ ' | ' }}
+    <router-link to="/i18n">I18n</router-link>
   </div>
 </template>
 
