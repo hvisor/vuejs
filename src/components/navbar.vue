@@ -12,8 +12,16 @@
     <router-link to="/form">Form</router-link>
     {{ ' | ' }}
     <router-link to="/chart">Chart</router-link>
-     {{ ' | ' }}
+    {{ ' | ' }}
     <router-link to="/i18n">I18n</router-link>
+    {{ ' | ' }}
+    <router-link to="/nested">Nested</router-link>
+    {{ ' | ' }}
+    <router-link to="/post">Post</router-link>
+     {{ ' | ' }}
+    <router-link to="/search">Search</router-link>
+     {{ ' | ' }}
+    <router-link to="/pagination">Page</router-link>
   </div>
 </template>
 

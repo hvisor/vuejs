@@ -12,7 +12,10 @@ const UserProfile = () => import('./views/UserProfile.vue' /* webpackChunkName: 
 const Form = () => import('./views/Form.vue' /* webpackChunkName: 'form' */)
 const Chart = () => import('./views/Chart.vue' /* webpackChunkName: 'chart' */)
 const I18n = () => import('./views/I18n' /* webpackChunkName: 'i18n' */)
-
+const Nested = () => import('./views/Nested.vue' /* webpackChunkName: 'nested' */)
+const Post = () => import('./views/Post.vue' /* webpackChunkName: 'post' */)
+const Search = () => import('./views/Search.vue' /* webpackChunkName: 'search' */)
+const Page = () => import('./views/Pagination.vue' /* webpackChunkName: 'page' */)
 
 Vue.use(VueRouter)
 
@@ -25,6 +28,10 @@ const routes = [
     {path: '/chart', component:Chart},
     { path: '/i18n', component: I18n },
     {path: '/user/:id', component:UserProfile},
+    {path: '/nested', component:Nested},
+    {path: '/post', component:Post},
+    {path: '/search', component:Search},
+    {path: '/pagination', component:Page},
     {path: '*', component:Home}
 ]
 
